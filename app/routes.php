@@ -17,3 +17,4 @@
 // });
 
 Route::controller('/', 'HomeController');
+Route::resource('/user', 'UserController');

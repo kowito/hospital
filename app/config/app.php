@@ -123,7 +123,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		
 		'Frozennode\Administrator\AdministratorServiceProvider',
-		'Way\Generators\GeneratorsServiceProvider'
+		'Way\Generators\GeneratorsServiceProvider',
+		'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
 	),
 
 	/*
