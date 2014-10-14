@@ -121,7 +121,9 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'Frozennode\Administrator\AdministratorServiceProvider'
+		
+		'Frozennode\Administrator\AdministratorServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider'
 	),
 
 	/*
