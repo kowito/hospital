@@ -24,10 +24,14 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
+// $env = $app->detectEnvironment(array(
+
+// 	'local' => array('localhost'),
+
+// ));
+
 $env = $app->detectEnvironment(array(
-
-	'local' => array('localhost'),
-
+   	'development' => array(gethostname())
 ));
 
 /*

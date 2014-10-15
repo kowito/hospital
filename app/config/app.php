@@ -125,6 +125,11 @@ return array(
 		'Frozennode\Administrator\AdministratorServiceProvider',
 		'Way\Generators\GeneratorsServiceProvider',
 		'Codesleeve\AssetPipeline\AssetPipelineServiceProvider',
+		'Thujohn\Pdf\PdfServiceProvider',
+		'Maatwebsite\Excel\ExcelServiceProvider',
+
+
+
 	),
 
 	/*
@@ -192,6 +197,8 @@ return array(
 		'Validator'       => 'Illuminate\Support\Facades\Validator',
 		'View'            => 'Illuminate\Support\Facades\View',
 
+		'PDF' 			  	=> 'Thujohn\Pdf\PdfFacade',
+		'Excel' 			=> 'Maatwebsite\Excel\Facades\Excel',
 	),
 
 );
