@@ -1,5 +1,4 @@
 <?php
-
 return array(
 
 	/**
@@ -21,6 +20,7 @@ return array(
 	 *
 	 * @type string
 	 */
+
 	'model_config_path' => app('path') . '/config/administrator',
 
 	/**

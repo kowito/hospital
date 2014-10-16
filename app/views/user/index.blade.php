@@ -1,7 +1,7 @@
-@extends('layouts.master')
+@extends('user.master')
  
 @section('title') Users @stop
- 
+
 @section('content')
  
 <div class="col-lg-10 col-lg-offset-1">
