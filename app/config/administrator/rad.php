@@ -4,20 +4,44 @@
  * Users model config
  */
 
+
+// $table->string('xn_code',20);
+
+// $table->string('title',50);
+// $table->string('name');
+// $table->string('surname');
+
+// $table->string('xlab_status');
+// $table->string('xlab_note');
+// $table->text('memo');
+// $table->text('logs');
+// $table->dateTime('case_entry',20);
+
+// $table->boolean('confidential')->default(0);
+// $table->boolean('status')->default(1);
+// $table->timestamps();
 return array(
 
 	'title' => 'รังสีวิทยา',
 	'single' => 'รังสีวิทยา',
-	'model' => 'User',
+	'model' => 'rad',
 
 	'columns' => array(
 		'id',
+		'xn_code' => array(
+			'title' => '# code',
+		),
 		'full_name' => array(
 			'title' => 'Name',
 			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
 		),
-		'num_films' => array(
-			'title' => '# email',
+
+		'case_entry' => array(
+			'title' => 'Entry',
+		),
+
+		'status' => array(
+			'title' => 'Status',
 		),
 	),
 
@@ -33,6 +57,11 @@ return array(
 	),
 
 	'edit_fields' => array(
+		'title' => array(
+			'title' => 'title',
+			'type' => 'text',
+		),
+
 		'first_name' => array(
 			'title' => 'First Name',
 			'type' => 'text',
@@ -41,10 +70,43 @@ return array(
 			'title' => 'Last Name',
 			'type' => 'text',
 		),
-		'email' => array(
-			'title' => 'Email',
+
+		'xn_code' => array(
+			'title' => 'code',
 			'type' => 'text',
 		),
+
+		'xlab_status' => array(
+			'title' => 'status',
+			'type' => 'markdown',
+		),
+		'xlab_note' => array(
+			'title' => 'note',
+			'type' => 'markdown',
+		),
+		'memo' => array(
+			'title' => 'memo',
+			'type' => 'text',
+		),
+		'logs' => array(
+			'title' => 'logs',
+			'type' => 'text',
+		),
+		'case_entry' => array(
+			'title' => 'case_entry',
+			'type' => 'datetime',
+		),
+
+		'confidential' => array(
+			'title' => 'confidential',
+			'type' => 'bool',
+		),
+
+		'status' => array(
+			'title' => 'status',
+			'type' => 'bool',
+		),
+		
 	),
 
 );
