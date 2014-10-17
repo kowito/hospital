@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * IDC9 model config
  */
 
 return array(
 
 	'title' => 'รหัสหัตถการ',
 	'single' => 'รหัสหัตถการ',
-	'model' => 'User',
+	'model' => 'Idc9',
 
 	'columns' => array(
 		'id',

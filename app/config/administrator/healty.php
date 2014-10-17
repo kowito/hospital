@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Users model config
+ * Healty model config
  */
 
 return array(

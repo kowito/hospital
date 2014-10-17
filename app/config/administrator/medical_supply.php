@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * Medical Supply model config
  */
 
 return array(
 
 	'title' => 'จัดซื้อยาและเวชภัณฑ์',
 	'single' => 'จัดซื้อยาและเวชภัณฑ์',
-	'model' => 'User',
+	'model' => 'MedicalSupply',
 
 	'columns' => array(
 		'id',

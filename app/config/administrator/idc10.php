@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * IDC10 model config
  */
 
 return array(
 
 	'title' => 'รหัสโรค',
 	'single' => 'รหัสโรค',
-	'model' => 'User',
+	'model' => 'Idc10',
 
 	'columns' => array(
 		'id',

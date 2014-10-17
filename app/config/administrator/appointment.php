@@ -8,7 +8,7 @@ return array(
 
 	'title' => 'นัดหมายผู้ป่วย',
 	'single' => 'นัดหมายผู้ป่วย',
-	'model' => 'User',
+	'model' => 'Appointment',
 
 	'columns' => array(
 		'id',

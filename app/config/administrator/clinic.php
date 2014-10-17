@@ -8,7 +8,7 @@ return array(
 
 	'title' => 'ห้องตรวจแพทย์',
 	'single' => 'ห้องตรวจแพทย์',
-	'model' => 'User',
+	'model' => 'Clinic',
 
 	'columns' => array(
 		'id',

@@ -8,7 +8,7 @@ return array(
 
 	'title' => 'ผู้ป่วยนอก',
 	'single' => 'ผู้ป่วยนอก',
-	'model' => 'User',
+	'model' => 'Opd',
 
 	'columns' => array(
 		'id',

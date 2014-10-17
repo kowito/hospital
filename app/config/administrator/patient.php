@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Medical Record model config
+ * Patient model config
  */
 
 return array(

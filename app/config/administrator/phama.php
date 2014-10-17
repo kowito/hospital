@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * Pharmaceutical model config
  */
 
 return array(
 
 	'title' => 'เภสัชกรรม',
 	'single' => 'เภสัชกรรม',
-	'model' => 'User',
+	'model' => 'Pharmaceutical',
 
 	'columns' => array(
 		'id',

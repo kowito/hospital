@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * PublicRelation model config
  */
 
 return array(
 
 	'title' => 'ประชาสัมพันธ์',
 	'single' => 'ประชาสัมพันธ์',
-	'model' => 'User',
+	'model' => 'PublicRelation',
 
 	'columns' => array(
 		'id',

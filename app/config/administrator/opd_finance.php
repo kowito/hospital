@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * OPD Finance model config
  */
 
 return array(
 
 	'title' => 'การเงินผู้ป่วยนอก',
 	'single' => 'การเงินผู้ป่วยนอก',
-	'model' => 'User',
+	'model' => 'OpdFinance',
 
 	'columns' => array(
 		'id',

@@ -1,25 +1,9 @@
 <?php
 
 /**
- * Users model config
+ * Rad model config
  */
 
-
-// $table->string('xn_code',20);
-
-// $table->string('title',50);
-// $table->string('name');
-// $table->string('surname');
-
-// $table->string('xlab_status');
-// $table->string('xlab_note');
-// $table->text('memo');
-// $table->text('logs');
-// $table->dateTime('case_entry',20);
-
-// $table->boolean('confidential')->default(0);
-// $table->boolean('status')->default(1);
-// $table->timestamps();
 return array(
 
 	'title' => 'รังสีวิทยา',

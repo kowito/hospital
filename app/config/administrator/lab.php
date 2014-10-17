@@ -1,14 +1,14 @@
 <?php
 
 /**
- * Users model config
+ * Lab model config
  */
 
 return array(
 
 	'title' => 'ห้องปฏิบัติการ',
 	'single' => 'ห้องปฏิบัติการ',
-	'model' => 'User',
+	'model' => 'Lab',
 
 	'columns' => array(
 		'id',
