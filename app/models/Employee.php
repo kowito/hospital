@@ -1,5 +1,5 @@
 <?php
 
-class Human extends \Eloquent {
+class Employee extends \Eloquent {
 	protected $fillable = [];
 }

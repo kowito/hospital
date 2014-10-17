@@ -33,7 +33,7 @@ return array(
 	
 
 	'menu' => array(
-		'เวชระเบียน' => array('medical_record', 'patient','person'),
+		'เวชระเบียน' => array('medical_record', 'patient', 'person', 'employee'),
 		'opd',
 		'clinic',
 		'lab',
