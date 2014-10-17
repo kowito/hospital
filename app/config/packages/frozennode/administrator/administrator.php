@@ -30,40 +30,41 @@ return array(
 	 */
 	'settings_config_path' => app('path') . '/config/administrator/settings',
 
-	/**
-	 * The menu structure of the site. Each item should either be the name of the model's config file or an array of names of model config files.
-	 * By doing the latter, you can group certain models together. Each name needs to have a config file in your model config path with the same
-	 * name. So 'users' would require a 'users.php' file in your model config path.
-	 *
-	 * @type array
-	 *
-	 * 	array(
-	 *		'Products' => array('products', 'product_images', 'orders'),
-	 *		'users',
-	 *	)
-	 */
+	// 'hn'		 				เวชระเบียน
+	// 'opd'		 			ผู้ป่วยนอก
+	// 'clinic'		 			ห้องตรวจแพทย์
+	// 'lab'		 			ห้องปฏิบัติการ
+	// 'rad'		 			รังสีวิทยา
+	// 'phama'		 			เภสัชกรรม
+	// 'medical_supply'			จัดซื้อยาและเวชภัณฑ์
+	// 'healty'		 			สร้างเสริมสุขภาพ
+	// 'opd_finance'		 	การเงินผู้ป่วยนอก
+	
+	// 'report'		 			 Online Report
+	// 'helth_coding'		 	ให้รหัสโรค
+	// 'appointment'		 	นัดหมายผู้ป่วย
+	// 'public_relation'		ประชาสัมพันธ์
 
-	// 'ระบบงานเวชระเบียน'
-	// 'ระบบงานผู้ป่วยนอก'
-	// 'ระบบงานห้องตรวจแพทย์'
-	// 'ระบบงานห้องปฏิบัติการ (LAB)'
-	// 'ระบบงานรังสีวิทยา'
-	// 'ระบบงานเภสัชกรรม'
-	// 'ระบบงานจัดซื้อยาและเวชภัณฑ์'
-	// 'ระบบงานสร้างเสริมสุขภาพ'
-	// 'ระบบงานการเงินผู้ป่วยนอก'
-	// 'ระบบงานผู้ดูแลระบบ (System Admin)'
-	// 'ระบบงาน Online Report'
-	// 'ระบบงานให้รหัสโรค (Coder)'
-	// 'ระบบงานนัดหมายผู้ป่วย'
-	// 'ระบบงานประชาสัมพันธ์'
+	// 'setting'		 		ผู้ดูแลระบบ
+
 	'menu' => array(
-		'Films' => array('films', 'boxoffice'),
-		'users',
-		'directors',
-		'theaters',
+		'hn',
+		'opd',
+		'clinic',
+		'lab',
+		'rad',
+		'phama',
+		'medical_supply',
+		'healty',
+		'opd_finance',
+		'report',
+		'helth_coding',
+		'appointment',
+		'public_relation',
 		'Settings' => array('settings.site'),
 	),
+
+
 
 	/**
 	 * The permission option is the highest-level authentication check that lets you define a closure that should return true if the current user
