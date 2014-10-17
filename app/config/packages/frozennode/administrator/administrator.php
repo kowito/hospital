@@ -30,22 +30,7 @@ return array(
 	 */
 	'settings_config_path' => app('path') . '/config/administrator/settings',
 
-	// 'hn'		 				เวชระเบียน
-	// 'opd'		 			ผู้ป่วยนอก
-	// 'clinic'		 			ห้องตรวจแพทย์
-	// 'lab'		 			ห้องปฏิบัติการ
-	// 'rad'		 			รังสีวิทยา
-	// 'phama'		 			เภสัชกรรม
-	// 'medical_supply'			จัดซื้อยาและเวชภัณฑ์
-	// 'healty'		 			สร้างเสริมสุขภาพ
-	// 'opd_finance'		 	การเงินผู้ป่วยนอก
 	
-	// 'report'		 			 Online Report
-	// 'helth_coding'		 	ให้รหัสโรค
-	// 'appointment'		 	นัดหมายผู้ป่วย
-	// 'public_relation'		ประชาสัมพันธ์
-
-	// 'setting'		 		ผู้ดูแลระบบ
 
 	'menu' => array(
 		'hn',
