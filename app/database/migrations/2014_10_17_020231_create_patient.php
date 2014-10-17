@@ -12,7 +12,7 @@ class CreatePatient extends Migration {
 	 */
 	public function up()
 	{
-		Schema::create('patient', function(Blueprint $table)
+		Schema::create('patients', function(Blueprint $table)
 		{
 			$table->increments('id');
 			$table->string('hn_code', 20);
@@ -73,7 +73,7 @@ class CreatePatient extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('patient');
+		Schema::drop('patients');
 	}
 
 }
