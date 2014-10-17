@@ -33,7 +33,7 @@ return array(
 	
 
 	'menu' => array(
-		'hn',
+		'เวชระเบียน' => array('medical_record', 'patient','person'),
 		'opd',
 		'clinic',
 		'lab',
@@ -43,10 +43,10 @@ return array(
 		'healty',
 		'opd_finance',
 		'report',
-		'helth_coding',
+		'รหัสโรค' => array('idc9', 'idc10'),
 		'appointment',
 		'public_relation',
-		'Settings' => array('settings.site'),
+		// 'Settings' => array('settings.site'),
 	),
 
 
@@ -83,7 +83,7 @@ return array(
 	 *
 	 * @type string
 	 */
-	'home_page' => 'settings.site',
+	'home_page' => 'medical_record',
 
 	/**
 	 * This is the path where Administrator will send the user if they are not logged in (!Auth::check())

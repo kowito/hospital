@@ -16,7 +16,7 @@ return array(
 			'title' => 'Name',
 			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
 		),
-		'num_films' => array(
+		'email' => array(
 			'title' => '# email',
 		),
 	),
@@ -45,6 +45,13 @@ return array(
 			'title' => 'Email',
 			'type' => 'text',
 		),
+
+		'specialist' => array(
+			'title' => 'Specialist',
+			'type' => 'text',
+		),
+
+		
 	),
 
 );

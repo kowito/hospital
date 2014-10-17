@@ -1,13 +1,13 @@
 <?php
 
 /**
- * OPD model config
+ * Users model config
  */
 
 return array(
 
-	'title' => 'ผู้ป่วยนอก',
-	'single' => 'ผู้ป่วยนอก',
+	'title' => 'รหัสหัตถการ',
+	'single' => 'รหัสหัตถการ',
 	'model' => 'User',
 
 	'columns' => array(

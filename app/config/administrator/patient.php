@@ -1,23 +1,20 @@
 <?php
 
 /**
- * OPD model config
+ * Medical Record model config
  */
 
 return array(
 
-	'title' => 'ผู้ป่วยนอก',
-	'single' => 'ผู้ป่วยนอก',
-	'model' => 'User',
+	'title' => 'ผู้ป่วย',
+	'single' => 'ผู้ป่วย',
+	'model' => 'Patient',
 
 	'columns' => array(
 		'id',
 		'full_name' => array(
 			'title' => 'Name',
 			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
-		),
-		'num_films' => array(
-			'title' => '# email',
 		),
 	),
 
@@ -39,10 +36,6 @@ return array(
 		),
 		'last_name' => array(
 			'title' => 'Last Name',
-			'type' => 'text',
-		),
-		'email' => array(
-			'title' => 'Email',
 			'type' => 'text',
 		),
 	),

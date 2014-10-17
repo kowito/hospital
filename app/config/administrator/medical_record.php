@@ -1,14 +1,14 @@
 <?php
 
 /**
- * OPD model config
+ * Medical Record model config
  */
 
 return array(
 
-	'title' => 'ผู้ป่วยนอก',
-	'single' => 'ผู้ป่วยนอก',
-	'model' => 'User',
+	'title' => 'เวชระเบียน',
+	'single' => 'เวชระเบียน',
+	'model' => 'MedicalRecord',
 
 	'columns' => array(
 		'id',
