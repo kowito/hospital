@@ -12,38 +12,28 @@ return array(
 
 	'columns' => array(
 		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
-		),
-		'num_films' => array(
-			'title' => '# email',
+		'case_entry' => array(
+			'title' => 'Case entry',
 		),
 	),
 
 
-	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
-		),
-	),
+	'filters' => '',
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
-			'type' => 'text',
+		'case_entry' => array(
+			'title' => 'Case Entry',
+			'type' => 'date'
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
-			'type' => 'text',
+
+		'drug_list' => array(
+			'title' => 'Drug List',
+			'type' => 'markdown'
 		),
-		'email' => array(
-			'title' => 'Email',
-			'type' => 'text',
+
+		'cash_total' => array(
+			'title' => 'Cash Total',
+			'type' => 'number'
 		),
 	),
 

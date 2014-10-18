@@ -30,22 +30,22 @@ return array(
 	 */
 	'settings_config_path' => app('path') . '/config/administrator/settings',
 
-	
+
 
 	'menu' => array(
 		'เวชระเบียน' => array('medical_record', 'patient', 'person', 'employee'),
-		'opd',
-		'clinic',
-		'lab',
+		// 'opd',
+		// 'clinic',
+		// 'lab',
 		'rad',
 		'phama',
-		'medical_supply',
-		'healty',
-		'opd_finance',
-		'report',
-		'รหัสโรค' => array('idc9', 'idc10'),
-		'appointment',
-		'public_relation',
+		// 'medical_supply',
+		// 'healty',
+		// 'opd_finance',
+		// 'report',
+		// 'รหัสโรค' => array('idc9', 'idc10'),
+		// 'appointment',
+		// 'public_relation',
 		// 'Settings' => array('settings.site'),
 	),
 
