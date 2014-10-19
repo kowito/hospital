@@ -39,7 +39,7 @@ return array(
 		// 'lab',
 		'rad',
 		'เภสัชกรรม' => array('prescription'),
-		// 'medical_supply',
+		'จัดซื้อยาและเวชภัณฑ์' => array('medical_supply'),
 		// 'healty',
 		// 'opd_finance',
 		// 'report',

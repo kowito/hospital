@@ -6,45 +6,119 @@
 
 return array(
 
-	'title' => 'จัดซื้อยาและเวชภัณฑ์',
-	'single' => 'จัดซื้อยาและเวชภัณฑ์',
+	'title' => 'ยาและเวชภัณฑ์',
+	'single' => 'ยาและเวชภัณฑ์',
 	'model' => 'MedicalSupply',
 
 	'columns' => array(
-		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
-		),
-		'num_films' => array(
-			'title' => '# email',
-		),
+		'drug_code' => array(
+			'title' => 'Code'
+			),
+		'drug_name' => array(
+			'title' => 'Name'
+			),
+		'drug_commonname' => array(
+			'title' => 'Common Name
+			'),
+		'drug_tradename' => array(
+			'title' => 'Tradename'
+			),
+		'drug_price' => array(
+			'title' => 'Price'
+			),
+		'drug_cost' => array(
+			'title' => 'Cost'
+			),
+		'drug_stock' => array(
+			'title' => 'Stock'
+			),
+		'drug_status' => array(
+			'title' => 'Status'
+			),
+
 	),
 
 
 	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
+
+		'drug_code' => array(
+			'title' => 'Code',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+		'drug_name' => array(
+			'title' => 'Name',
 		),
 	),
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
-			'type' => 'text',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
-			'type' => 'text',
-		),
-		'email' => array(
-			'title' => 'Email',
-			'type' => 'text',
-		),
-	),
 
+			'drug_code' => array(
+				'title' => 'code',
+				'type' => 'text'
+			),
+
+			'drug_name' => array(
+				'title' => 'name',
+				'type' => 'text'
+			),
+
+			'drug_commonname' => array(
+				'title' => 'commonname',
+				'type' => 'text'
+			),
+
+			'drug_tradename' => array(
+				'title' => 'tradename',
+				'type' => 'text'
+			),
+
+			'drug_ingredient' => array(
+				'title' => 'ingredient',
+				'type' => 'text'
+			),
+
+			'drug_usage' => array(
+				'title' => 'usage',
+				'type' => 'markdown'
+			),
+
+			'drug_dose' => array(
+				'title' => 'dose',
+				'type' => 'markdown'
+			),
+
+			'drug_package' => array(
+				'title' => 'package',
+				'type' => 'markdown'
+			),
+
+			'drug_period' => array(
+				'title' => 'period',
+				'type' => 'markdown'
+			),
+
+			'drug_price' => array(
+				'title' => 'price',
+				'type' => 'markdown'
+			),
+
+			'drug_cost' => array(
+				'title' => 'cost',
+				'type' => 'markdown'
+			),
+
+			'drug_stock' => array(
+				'title' => 'stock',
+				'type' => 'markdown'
+			),
+
+			'drug_status' => array(
+				'title' => 'status',
+				'type' => 'text'
+			),
+
+			'drug_note' => array(
+				'title' => 'note',
+				'type' => 'text'
+			),
+		),
 );
