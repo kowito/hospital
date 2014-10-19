@@ -38,7 +38,7 @@ return array(
 		// 'clinic',
 		// 'lab',
 		'rad',
-		'phama',
+		'เภสัชกรรม' => array('prescription'),
 		// 'medical_supply',
 		// 'healty',
 		// 'opd_finance',

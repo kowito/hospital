@@ -6,8 +6,8 @@
 
 return array(
 
-	'title' => 'เภสัชกรรม',
-	'single' => 'เภสัชกรรม',
+	'title' => 'การจ่ายยา',
+	'single' => 'การจ่ายยา',
 	'model' => 'Pharmaceutical',
 
 	'columns' => array(
@@ -21,6 +21,16 @@ return array(
 	'filters' => '',
 
 	'edit_fields' => array(
+
+		'Patient' => array(
+			'title' => 'Patient',
+			'relationship' => 'patient', //this is the name of the Eloquent relationship method!
+			'select' => '(:table).id'
+			,
+		),
+
+
+
 		'case_entry' => array(
 			'title' => 'Case Entry',
 			'type' => 'date'
