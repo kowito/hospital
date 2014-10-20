@@ -11,40 +11,74 @@ return array(
 	'model' => 'Idc10',
 
 	'columns' => array(
-		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
+		'code_idc10' => array(
+			'title' => 'Code'
 		),
-		'num_films' => array(
-			'title' => '# email',
+		'name_idc10' => array(
+			'title' => 'Name'
 		),
+		'symptoms',
+		'diagnosis',
+		'periods',
+		'drugs',
+		'drugs_usage',
 	),
 
 
 	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
+		'code_idc10' => array(
+			'title' => 'Code',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+		'name_idc10' => array(
+			'title' => 'Name',
 		),
 	),
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
+
+		'code_idc10' => array(
+			'title' => 'code',
 			'type' => 'text',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+		'name_idc10' => array(
+			'title' => 'name',
 			'type' => 'text',
 		),
-		'email' => array(
-			'title' => 'Email',
+		'symptoms' => array(
+			'title' => 'symptoms',
+			'type' => 'markdown',
+		),
+		'diagnosis' => array(
+			'title' => 'diagnosis',
+			'type' => 'markdown',
+		),
+		'periods' => array(
+			'title' => 'periods',
+			'type' => 'markdown',
+		),
+		'drugs' => array(
+			'title' => 'drugs',
+			'type' => 'markdown',
+		),
+		'drugs_usage' => array(
+			'title' => 'drugs_usage',
+			'type' => 'markdown',
+		),
+		'solutions' => array(
+			'title' => 'solutions',
+			'type' => 'markdown',
+		),
+		'note_idc10' => array(
+			'title' => 'note_idc10',
 			'type' => 'text',
+		),
+		'memo' => array(
+			'title' => 'memo',
+			'type' => 'markdown',
+		),
+		'logs' => array(
+			'title' => 'logs',
+			'type' => 'markdown',
 		),
 	),
-
 );

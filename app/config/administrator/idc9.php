@@ -12,39 +12,49 @@ return array(
 
 	'columns' => array(
 		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
+		'code_idc9' => array(
+			'title' => 'Code'
 		),
-		'num_films' => array(
-			'title' => '# email',
+		'name_idc9' => array(
+			'title' => 'Name'
 		),
+		'action',
+		'price',
 	),
 
 
 	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
-		),
+		'code',
+		'name',
 	),
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
+
+		'code_idc9' => array(
+			'title' => 'Code',
 			'type' => 'text',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+
+		'name_idc9' => array(
+			'title' => 'Name',
 			'type' => 'text',
 		),
-		'email' => array(
-			'title' => 'Email',
+
+		'action' => array(
+			'title' => 'Action',
 			'type' => 'text',
 		),
+
+		'price' => array(
+			'title' => 'Price',
+			'type' => 'text',
+		),
+
+		'note_idc9' => array(
+			'title' => 'Note',
+			'type' => 'text',
+		),
+
 	),
 
 );

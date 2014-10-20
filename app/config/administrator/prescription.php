@@ -6,8 +6,8 @@
 
 return array(
 
-	'title' => 'ใบสั่งยา',
-	'single' => 'ใบสั่งยา',
+	'title' => 'ข้อมูลการจ่ายยา',
+	'single' => 'ข้อมูลการจ่ายยา',
 	'model' => 'Prescription',
 
 	'columns' => array(

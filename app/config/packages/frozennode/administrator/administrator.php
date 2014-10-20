@@ -43,7 +43,7 @@ return array(
 		// 'healty',
 		// 'opd_finance',
 		// 'report',
-		// 'รหัสโรค' => array('idc9', 'idc10'),
+		'รหัสโรค' => array('idc9', 'idc10'),
 		// 'appointment',
 		// 'public_relation',
 		// 'Settings' => array('settings.site'),
