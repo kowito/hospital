@@ -45,7 +45,7 @@ return array(
 		// 'report',
 		'รหัสโรค' => array('idc9', 'idc10'),
 		// 'appointment',
-		'ประชาสัมพันธ์' => array('patient', 'employee'),
+		'ประชาสัมพันธ์' => array('company', 'patient', 'employee'),
 		// 'Settings' => array('settings.site'),
 	),
 

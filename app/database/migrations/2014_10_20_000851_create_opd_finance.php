@@ -15,10 +15,8 @@ class CreateOpdFinance extends Migration {
 		Schema::create('opd_finance', function(Blueprint $table)
 		{
 			$table->increments('id');
-
 			$table->unsignedInteger('patient_id');
 			$table->foreign('patient_id')->references('id')->on('patients');
-
 			$table->boolean('status');
 			$table->datetime('case_entry');
 			$table->text('cash_list');
@@ -28,7 +26,6 @@ class CreateOpdFinance extends Migration {
 			$table->text('memo');
 			$table->text('logs');
 			$table->softDeletes();
-
 			$table->timestamps();
 		});
 	}
