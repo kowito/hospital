@@ -12,39 +12,70 @@ return array(
 
 	'columns' => array(
 		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
+		'lab_code' => array(
+			'title' => 'Code',
 		),
-		'num_films' => array(
-			'title' => '# email',
+		'patient' => array(
+			'title' => 'Patient Name',
+			'relationship' => 'patient',
+			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)"
+		),
+
+		'lab_group' => array(
+			'title' => 'Lab Group',
+			'relationship' => 'lab_group',
+			'select' => '(:table).name',
+		),
+
+		'status',
+		'confidential',
+		'lab_status' => array(
+			'title' => 'Lab Status',
 		),
 	),
 
 
 	'filters' => array(
 		'id',
-		'first_name' => array(
-			'title' => 'First Name',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
+		'lab_code' => array(
+			'title' => 'Code',
 		),
 	),
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
+		'patient' => array(
+			'title' => 'Patient',
+			'type' => 'relationship',
+			'name_field' => 'first_name',
+
+		),
+		'lab_code' => array(
+			'title' => 'Code',
 			'type' => 'text',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+
+		'lab_group' => array(
+			'title' => 'Lab Group',
+			'type' => 'relationship',
+			'name_field' => 'name',
+
+		),
+
+		'status' => array(
+			'title' => 'Status',
+			'type' => 'bool',
+		),
+
+		'confidential' => array(
+			'title' => 'Confidential',
+			'type' => 'bool',
+		),
+
+		'lab_status' => array(
+			'title' => 'Lab Status',
 			'type' => 'text',
 		),
-		'email' => array(
-			'title' => 'Email',
-			'type' => 'text',
-		),
+
 	),
 
 );

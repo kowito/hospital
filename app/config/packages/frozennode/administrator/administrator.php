@@ -36,7 +36,7 @@ return array(
 		'เวชระเบียน' => array('medical_record', 'patient', 'person', 'employee'),
 		// 'opd',
 		// 'clinic',
-		// 'lab',
+		'ห้องปฏิบัติการ (LAB)' => array('lab', 'lab_group'),
 		'rad',
 		'เภสัชกรรม' => array('prescription'),
 		'จัดซื้อยาและเวชภัณฑ์' => array('medical_supply'),
