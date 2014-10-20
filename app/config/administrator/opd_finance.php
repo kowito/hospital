@@ -6,45 +6,86 @@
 
 return array(
 
-	'title' => 'การเงินผู้ป่วยนอก',
-	'single' => 'การเงินผู้ป่วยนอก',
+	'title' => 'รายการข้อมูลการชำระเงิน',
+	'single' => 'รายการข้อมูลการชำระเงิน',
 	'model' => 'OpdFinance',
 
 	'columns' => array(
 		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
+		'patient' => array(
+			'title' => 'Patient Name',
+			'relationship' => 'patient',
+			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)"
+
 		),
-		'num_films' => array(
-			'title' => '# email',
+
+		'status' => array(
+			'title' => 'status',
+		),
+
+		'case_entry' => array(
+			'title' => 'Case entry',
+		),
+
+		'cash_list' => array(
+			'title' => 'cash list',
+		),
+
+		'cash_total' => array(
+			'title' => 'cash total',
+		),
+
+		'cash_status' => array(
+			'title' => 'cash status',
+		),
+
+		'cash_note' => array(
+			'title' => 'cash note',
 		),
 	),
 
 
 	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
-		),
+		'status',
 	),
 
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
-			'type' => 'text',
+		'patient' => array(
+			'title' => 'Patient',
+			'type' => 'relationship',
+			'name_field' => 'first_name',
+
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
-			'type' => 'text',
+		'status' => array(
+			'title' => 'status',
+			'type' => 'bool'
 		),
-		'email' => array(
-			'title' => 'Email',
-			'type' => 'text',
+
+		'case_entry' => array(
+			'title' => 'case_entry',
+			'type' => 'datetime'
 		),
+
+		'cash_list' => array(
+			'title' => 'cash_list',
+			'type' => 'markdown'
+		),
+
+		'cash_total' => array(
+			'title' => 'cash_total',
+			'type' => 'text'
+		),
+
+		'cash_status' => array(
+			'title' => 'cash_status',
+			'type' => 'markdown'
+		),
+
+		'cash_note' => array(
+			'title' => 'cash_note',
+			'type' => 'markdown'
+		),
+
 	),
 
 );

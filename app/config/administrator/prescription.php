@@ -20,7 +20,6 @@ return array(
 
 		),
 
-
 		'case_entry' => array(
 			'title' => 'Case entry',
 		),

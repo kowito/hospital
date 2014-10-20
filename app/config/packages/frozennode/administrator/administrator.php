@@ -41,11 +41,11 @@ return array(
 		'เภสัชกรรม' => array('prescription'),
 		'จัดซื้อยาและเวชภัณฑ์' => array('medical_supply'),
 		// 'healty',
-		// 'opd_finance',
+		'การเงินผู้ป่วยนอก' => array('opd_finance'),
 		// 'report',
 		'รหัสโรค' => array('idc9', 'idc10'),
 		// 'appointment',
-		// 'public_relation',
+		'ประชาสัมพันธ์' => array('patient', 'employee'),
 		// 'Settings' => array('settings.site'),
 	),
 

@@ -16,6 +16,7 @@ return array(
 			'title' => 'Name',
 			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
 		),
+		'phone',
 	),
 
 
@@ -27,6 +28,7 @@ return array(
 		'last_name' => array(
 			'title' => 'Last Name',
 		),
+		'phone',
 	),
 
 	'edit_fields' => array(
