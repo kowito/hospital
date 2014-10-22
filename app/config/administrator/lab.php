@@ -15,6 +15,7 @@ return array(
 		'lab_code' => array(
 			'title' => 'Code',
 		),
+
 		'patient' => array(
 			'title' => 'Patient Name',
 			'relationship' => 'patient',
@@ -47,8 +48,8 @@ return array(
 			'title' => 'Patient',
 			'type' => 'relationship',
 			'name_field' => 'first_name',
-
 		),
+		
 		'lab_code' => array(
 			'title' => 'Code',
 			'type' => 'text',

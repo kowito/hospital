@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Users model config
+ * Appointment model config
  */
 
 return array(
@@ -11,40 +11,63 @@ return array(
 	'model' => 'Appointment',
 
 	'columns' => array(
-		'id',
-		'full_name' => array(
-			'title' => 'Name',
-			'select' => "CONCAT((:table).first_name, ' ', (:table).last_name)",
+		'title' => array(
+			'title' => 'Title',
 		),
-		'num_films' => array(
-			'title' => '# email',
+		'datetime' => array(
+			'title' => 'datetime',
+		),
+		'where' => array(
+			'title' => 'Where',
+		),
+		'status' => array(
+			'title' => 'Status',
 		),
 	),
 
 
 	'filters' => array(
-		'id',
-		'first_name' => array(
-			'title' => 'First Name',
-		),
-		'last_name' => array(
-			'title' => 'Last Name',
+		'title' => array(
+			'title' => 'Title',
 		),
 	),
 
+
+
 	'edit_fields' => array(
-		'first_name' => array(
-			'title' => 'First Name',
+		'title' => array(
+			'title' => 'Title',
 			'type' => 'text',
 		),
-		'last_name' => array(
-			'title' => 'Last Name',
+
+		'AppointmentType' => array(
+			'title' => 'Appointment Type',
+			'type' => 'relationship',
+			'name_field' => 'name',
+		),
+
+		'Employee' => array(
+			'title' => 'Employee',
+			'type' => 'relationship',
+			'name_field' => 'name',
+		),
+
+
+		'datetime' => array(
+			'title' => 'Datetime',
+			'type' => 'datetime',
+		),
+
+		'where' => array(
+			'title' => 'Where',
 			'type' => 'text',
 		),
-		'email' => array(
-			'title' => 'Email',
+
+		'status' => array(
+			'title' => 'Status',
 			'type' => 'text',
 		),
+
 	),
 
 );

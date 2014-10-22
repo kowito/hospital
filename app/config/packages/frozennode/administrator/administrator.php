@@ -44,7 +44,7 @@ return array(
 		'การเงินผู้ป่วยนอก' => array('opd_finance'),
 		// 'report',
 		'รหัสโรค' => array('idc9', 'idc10'),
-		// 'appointment',
+		'นัดหมายผู้ป่วย' => array('appointment_type', 'appointment'),
 		'ประชาสัมพันธ์' => array('company', 'patient', 'employee'),
 		// 'Settings' => array('settings.site'),
 	),
