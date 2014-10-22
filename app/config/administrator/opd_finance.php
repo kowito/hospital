@@ -19,10 +19,6 @@ return array(
 
 		),
 
-		'status' => array(
-			'title' => 'status',
-		),
-
 		'case_entry' => array(
 			'title' => 'Case entry',
 		),
@@ -33,6 +29,10 @@ return array(
 
 		'cash_total' => array(
 			'title' => 'cash total',
+			'type' => 'number',
+	    'title' => 'Price',
+	    'symbol' => '฿',
+			'decimals' => 2,
 		),
 
 		'cash_status' => array(
@@ -41,6 +41,10 @@ return array(
 
 		'cash_note' => array(
 			'title' => 'cash note',
+		),
+
+		'status' => array(
+			'title' => 'status',
 		),
 	),
 

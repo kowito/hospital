@@ -6,4 +6,8 @@ class AppointmentType extends \Eloquent {
 	protected $fillable = [];
 	protected $dates = ['deleted_at'];
 	protected $table = 'appointment_type';
+
+	public static $rules = array(
+		'name' => 'required',
+	);
 }

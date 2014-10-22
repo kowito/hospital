@@ -7,6 +7,12 @@ class Appointment extends \Eloquent {
 	protected $dates = ['deleted_at'];
 	protected $table = 'appointment';
 
+	public static $rules = array(
+		'title' => 'required',
+    'employee' => 'required',
+		'datetime' => 'required',
+	);
+
 	public function appointmentType()
 	{
 			return $this->belongsTo('AppointmentType');

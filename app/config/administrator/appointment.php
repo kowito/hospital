@@ -32,8 +32,6 @@ return array(
 		),
 	),
 
-
-
 	'edit_fields' => array(
 		'title' => array(
 			'title' => 'Title',
