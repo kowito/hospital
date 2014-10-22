@@ -49,7 +49,7 @@ return array(
 			'type' => 'relationship',
 			'name_field' => 'first_name',
 		),
-		
+
 		'lab_code' => array(
 			'title' => 'Code',
 			'type' => 'text',
@@ -74,7 +74,7 @@ return array(
 
 		'lab_status' => array(
 			'title' => 'Lab Status',
-			'type' => 'text',
+			'type' => 'markdown',
 		),
 
 	),

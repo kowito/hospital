@@ -33,9 +33,9 @@ return array(
 
 
 	'menu' => array(
+		'ห้องตรวจแพทย์' => array('patient'),
 		'เวชระเบียน' => array('medical_record', 'patient', 'person', 'employee'),
 		// 'opd',
-		// 'clinic',
 		'ห้องปฏิบัติการ (LAB)' => array('lab', 'lab_group'),
 		'rad',
 		'เภสัชกรรม' => array('prescription'),
@@ -46,7 +46,7 @@ return array(
 		'รหัสโรค' => array('idc9', 'idc10'),
 		'นัดหมายผู้ป่วย' => array('appointment_type', 'appointment'),
 		'ประชาสัมพันธ์' => array('company', 'patient', 'employee'),
-		// 'Settings' => array('settings.site'),
+		'ตั้งค่า' => array('doctor'),
 	),
 
 

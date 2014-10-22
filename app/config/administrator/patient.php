@@ -6,8 +6,8 @@
 
 return array(
 
-	'title' => 'ผู้ป่วย',
-	'single' => 'ผู้ป่วย',
+	'title' => 'ทะเบียนผู้ป่วย',
+	'single' => 'ทะเบียนผู้ป่วย',
 	'model' => 'Patient',
 
 	'columns' => array(
@@ -74,7 +74,7 @@ return array(
 		),
 
 		'nickname' => array(
-			'title' => 'nickname',
+			'title' => 'Nickname',
 			'type' => 'text',
 		),
 
