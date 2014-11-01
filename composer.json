@@ -3,18 +3,34 @@
 	"description": "The Laravel Framework.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
+
+	"repositories": [
+    {
+        "type":"package",
+        "package": {
+          "name": "frozennode/administrator",
+          "version":"dev",
+          "source": {
+              "url": "https://github.com/kowito/Laravel-Administrator",
+              "type": "git",
+              "reference":"dev"
+            }
+        }
+    }
+	],
+
 	"require": {
 		"laravel/framework": "4.2.*",
-		"frozennode/administrator": "dev-master",
 		"codesleeve/asset-pipeline": "2.0.*",
 		"thujohn/pdf": "dev-master",
-		"maatwebsite/excel": "~1.2.1"
+		"maatwebsite/excel": "~1.2.1",
+		"frozennode/administrator": "dev-master"
 	},
 
 	"require-dev": {
     	"way/generators": "~2.0"
 	},
-	
+
 	"autoload": {
 		"classmap": [
 			"app/commands",
